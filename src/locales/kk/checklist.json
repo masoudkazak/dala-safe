@@ -1,0 +1,23 @@
+{
+  "checklist.title": "Дайындық тізімі",
+  "checklist.subtitle": "Міндетті элементтер көрінеді. Қажет болса өз элементтеріңді қос.",
+  "checklist.progress": "Орындалды",
+  "checklist.requiredRemaining": "{count} міндетті элемент қалды",
+  "checklist.allDone": "Барлық міндетті элементтер орындалды.",
+  "checklist.add": "Элемент қосу",
+  "checklist.addLabel": "Жаңа тізім элементі",
+  "checklist.addPlaceholder": "мыс. Топқа кездесу орны туралы айт",
+  "checklist.custom": "Жеке",
+  "checklist.remove": "Элементті алып тастау",
+  "checklist.reset": "Тізімді қалпына келтіру",
+  "checklist.resetTitle": "Барлық тізім прогресін қалпына келтіру керек пе?",
+  "checklist.resetBody": "Барлық элементтер белгісіз болады. Жеке элементтер сақталады.",
+  "checklist.empty": "Тізім элементтері жоқ. Бастау үшін біреуін қос.",
+  "checklist.saved": "Тізім сақталды.",
+  "checklist.required": "Міндетті",
+  "checklist.optional": "Міндетті емес",
+  "checklist.progressValue": "{done} / {total}",
+  "checklist.added": "Элемент қосылды.",
+  "checklist.removed": "Элемент алып тасталды.",
+  "checklist.resetDone": "Тізім прогресі қалпына келтірілді."
+}

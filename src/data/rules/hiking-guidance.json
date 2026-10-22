@@ -1,0 +1,432 @@
+{
+  "version": "1.0.0",
+  "lastReviewed": "2026-10-20",
+  "reviewStatus": "human-review-required",
+  "translationStatus": "machine-assisted",
+  "sourceNote": {
+    "kk": "Ережелер жалпы дайындық нұсқаулығына және ресми шұғыл нөмірлер туралы ақпаратқа негізделген. Олар заңды талаптар, қауіп шектері, жауап беру уақыты туралы уәделер немесе қауіпсіздік кепілдігі емес.",
+    "ru": "Правила основаны на общих рекомендациях по подготовке и официальной информации об экстренных номерах. Они не являются юридическими требованиями, порогами опасности, обещаниями времени реагирования или гарантией безопасности.",
+    "en": "Rules are based on general preparedness guidance and official emergency-number information. They are not legal requirements, hazard thresholds, response-time promises, or a safety guarantee."
+  },
+  "rules": [
+    {
+      "id": "long-duration",
+      "severity": "caution",
+      "classification": "general",
+      "conditions": {
+        "durationHours": {
+          "min": 6
+        }
+      },
+      "title": {
+        "kk": "Ұзақ күндік сапар",
+        "ru": "Долгий день",
+        "en": "Long day out"
+      },
+      "explanation": {
+        "kk": "Сіз шамамен 6 сағат немесе одан көп уақытты жоспарладыңыз. Жарық уақыты мен күш қорын қалдырыңыз, фонарь, қосымша су мен азық алыңыз және шығар алдында қайтарылу уақытын келісіңіз. Бұл — жалпы жоспарлау кеңесі, қауіпсіздік кепілдігі емес.",
+        "ru": "Вы планируете около 6 часов и больше. Заложите запас светлого времени и сил, возьмите фонарь, дополнительную воду и еду и заранее договоритесь о времени разворота. Это общий совет по планированию, а не гарантия безопасности.",
+        "en": "You planned about 6 hours or more. Leave margin for daylight and energy, carry a headlamp, extra water and food, and agree a turnaround time before you start. This is general planning advice, not a safety guarantee."
+      },
+      "source": {
+        "publisher": "Almaty akimat / Visitalmaty (gov.kz)",
+        "url": "https://www.gov.kz/uploads/2024/9/17/bf797a6b4a7d013127673e11c05b760d_original.3189117.pdf",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми жаднамаға негізделген жалпы дайындық кеңесі; заңды талап емес және қауіпсіздікке кепілдік бермейді.",
+          "ru": "Общая рекомендация по подготовке из официальной памятки; не является юридическим требованием и не гарантирует безопасность.",
+          "en": "General preparedness advice from an official memo; not a legal requirement and not a safety guarantee."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "extended-duration",
+      "severity": "caution",
+      "classification": "general",
+      "conditions": {
+        "durationHours": {
+          "min": 10
+        }
+      },
+      "title": {
+        "kk": "Ұзартылған сапар",
+        "ru": "Продолжительная поездка",
+        "en": "Extended trip"
+      },
+      "explanation": {
+        "kk": "Шамамен 10 сағат немесе одан көп сапар кідірістерге аз мүмкіндік қалдырады. Топтың дайындығы мен маршруттың жағдайға сәйкестігін талқылаңыз, қосымша киім мен жарық алыңыз және қажет болса жоспарды өзгертуге дайын болыңыз. Жағдай өзгеруі мүмкін; ресми нұсқаулықты ұстаныңыз.",
+        "ru": "Поездка на 10 часов и больше оставляет мало запаса на задержки. Обсудите готовность группы и соответствие маршрута условиям, возьмите запасную одежду и свет и будьте готовы изменить план. Условия могут меняться; следуйте официальным рекомендациям.",
+        "en": "A trip of about 10 hours or more leaves little margin for delays. Discuss the group's readiness and whether the route fits the conditions, carry spare layers and light, and be ready to change the plan. Conditions can change; follow official guidance."
+      },
+      "source": {
+        "publisher": "Almaty akimat / Visitalmaty (gov.kz)",
+        "url": "https://www.gov.kz/uploads/2024/9/17/bf797a6b4a7d013127673e11c05b760d_original.3189117.pdf",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми жаднамаға негізделген жалпы дайындық кеңесі; заңды талап емес және қауіпсіздікке кепілдік бермейді.",
+          "ru": "Общая рекомендация по подготовке из официальной памятки; не является юридическим требованием и не гарантирует безопасность.",
+          "en": "General preparedness advice from an official memo; not a legal requirement and not a safety guarantee."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "no-connectivity",
+      "severity": "caution",
+      "classification": "general",
+      "conditions": {
+        "connectivity": {
+          "in": [
+            "none"
+          ]
+        }
+      },
+      "title": {
+        "kk": "Мобильді байланыс күтілмейді",
+        "ru": "Мобильная связь не ожидается",
+        "en": "No mobile signal expected"
+      },
+      "explanation": {
+        "kk": "Тікелей карталарға, қоңырауларға немесе орналасуды бөлісуге сенбеңіз. Шығар алдында офлайн карта мен маршрутты жүктеп алыңыз, сенімді адамға қайда баратыныңызды және қашан оралатыныңызды айтыңыз, телефонды зарядтап алыңыз. Офлайн мазмұнды алдын ала дайындау керек.",
+        "ru": "Не полагайтесь на онлайн-карты, звонки или передачу местоположения. Заранее скачайте офлайн-карту и маршрут, сообщите доверенному человеку, куда вы идёте и когда планируете вернуться, и держите телефон заряженным. Офлайн-материалы нужно подготовить заранее.",
+        "en": "Do not rely on live maps, calls, or location sharing. Download the offline map and route before leaving, tell a trusted contact where you are going and when you expect to return, and keep your phone charged. Offline content must be prepared in advance."
+      },
+      "source": {
+        "publisher": "Almaty akimat / Visitalmaty (gov.kz)",
+        "url": "https://www.gov.kz/uploads/2024/9/17/bf797a6b4a7d013127673e11c05b760d_original.3189117.pdf",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми жаднамаға негізделген жалпы дайындық кеңесі; заңды талап емес және қауіпсіздікке кепілдік бермейді.",
+          "ru": "Общая рекомендация по подготовке из официальной памятки; не является юридическим требованием и не гарантирует безопасность.",
+          "en": "General preparedness advice from an official memo; not a legal requirement and not a safety guarantee."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "unreliable-connectivity",
+      "severity": "info",
+      "classification": "general",
+      "conditions": {
+        "connectivity": {
+          "in": [
+            "unreliable"
+          ]
+        }
+      },
+      "title": {
+        "kk": "Байланыс тұрақсыз",
+        "ru": "Нестабильная связь",
+        "en": "Unreliable mobile signal"
+      },
+      "explanation": {
+        "kk": "Байланыс үзілуі мүмкін. Жүктелген офлайн карта мен жазбаша жоспарды сақтаңыз және уақытында оралмасаңыз, сенімді адам не істеуі керектігін келісіңіз.",
+        "ru": "Связь может пропасть. Держите под рукой скачанную офлайн-карту и письменный план, а также договоритесь с доверенным человеком, что делать, если вы не вернётесь вовремя.",
+        "en": "Connectivity may drop. Keep a downloaded offline map and a written plan, and agree with your trusted contact what to do if you do not return on time."
+      },
+      "source": {
+        "publisher": "Almaty akimat / Visitalmaty (gov.kz)",
+        "url": "https://www.gov.kz/uploads/2024/9/17/bf797a6b4a7d013127673e11c05b760d_original.3189117.pdf",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми жаднамаға негізделген жалпы дайындық кеңесі; заңды талап емес және қауіпсіздікке кепілдік бермейді.",
+          "ru": "Общая рекомендация по подготовке из официальной памятки; не является юридическим требованием и не гарантирует безопасность.",
+          "en": "General preparedness advice from an official memo; not a legal requirement and not a safety guarantee."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "first-time-group",
+      "severity": "caution",
+      "classification": "general",
+      "conditions": {
+        "groupExperience": {
+          "in": [
+            "first-time"
+          ]
+        }
+      },
+      "title": {
+        "kk": "Топ алғаш рет шығып отыр",
+        "ru": "Группа выходит впервые",
+        "en": "First-time group"
+      },
+      "explanation": {
+        "kk": "Алғашқы сапар үшін топтың дене дайындығы мен тәжірибесіне сай маршрут таңдаңыз, күннің соңында бейтаныс маршрутқа кіріспеңіз және тәжірибелі адаммен бірге шығуды қарастырыңыз. Ресми нұсқаулық жалғыз шығуға кеңес бермейді.",
+        "ru": "Для первой поездки выбирайте маршрут, соответствующий физической подготовке и опыту группы, не начинайте незнакомый маршрут в конце дня и рассмотрите выход с опытным человеком. Официальные рекомендации не советуют идти в одиночку.",
+        "en": "For a first trip, choose a route that matches the group's fitness and experience, avoid starting an unfamiliar route late in the day, and consider going with someone experienced. Official guidance advises against hiking alone."
+      },
+      "source": {
+        "publisher": "Almaty akimat / Visitalmaty (gov.kz)",
+        "url": "https://www.gov.kz/uploads/2024/9/17/bf797a6b4a7d013127673e11c05b760d_original.3189117.pdf",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми жаднамаға негізделген жалпы дайындық кеңесі; заңды талап емес және қауіпсіздікке кепілдік бермейді.",
+          "ru": "Общая рекомендация по подготовке из официальной памятки; не является юридическим требованием и не гарантирует безопасность.",
+          "en": "General preparedness advice from an official memo; not a legal requirement and not a safety guarantee."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "forecast-not-checked",
+      "severity": "caution",
+      "classification": "general",
+      "conditions": {
+        "forecastAvailable": {
+          "in": [
+            false
+          ],
+          "includeUnknown": true
+        }
+      },
+      "title": {
+        "kk": "Болжам расталмаған",
+        "ru": "Прогноз не подтверждён",
+        "en": "Forecast not confirmed"
+      },
+      "explanation": {
+        "kk": "Бұл сапар үшін ауа райы болжамы расталмаған. Шығар алдында Қазгидрометтің болжамын және ресми дауыл ескертулерін тексеріңіз, жоспарды өзгертуге немесе тоқтатуға дайын болыңыз. Қолданба тікелей ауа райы деректерін бермейді.",
+        "ru": "Прогноз погоды для этой поездки не подтверждён. Перед выходом проверьте прогноз Казгидромета и официальные штормовые предупреждения, будьте готовы изменить или отменить план. Приложение не предоставляет актуальные погодные данные.",
+        "en": "A forecast has not been confirmed for this trip. Check Kazhydromet forecasts and official storm warnings before departure, and be ready to change or cancel the plan. The app does not provide live weather data."
+      },
+      "source": {
+        "publisher": "Kazhydromet",
+        "url": "https://www.kazhydromet.kz/ru",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми болжам көзі. Dala Safe нақты уақыттағы ауа райы немесе қауіп деректерін жүктемейді және көрсетпейді.",
+          "ru": "Официальный источник прогноза. Dala Safe не загружает и не показывает актуальные погодные данные или данные об опасностях.",
+          "en": "Official forecast source. Dala Safe does not fetch or display live weather or hazard data."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "unmarked-route",
+      "severity": "caution",
+      "classification": "general",
+      "conditions": {
+        "routeType": {
+          "in": [
+            "unmarked"
+          ]
+        }
+      },
+      "title": {
+        "kk": "Белгіленбеген маршрут",
+        "ru": "Немаркированный маршрут",
+        "en": "Unmarked route"
+      },
+      "explanation": {
+        "kk": "Белгіленбеген маршрут навигация дағдыларын және қосымша уақытты қажет етеді. Карта, компас немесе GPS, офлайн трегі бар зарядталған телефон алыңыз және баяу қозғалысты жоспарлаңыз. Жүктелген тректі тексерілген қауіпсіз маршрут деп санамаңыз.",
+        "ru": "Немаркированный маршрут требует навыков навигации и дополнительного времени. Возьмите карту, компас или GPS, заряженный телефон с офлайн-треком и планируйте более медленный темп. Не считайте скачанный трек проверенным безопасным маршрутом.",
+        "en": "An unmarked route needs navigation skills and extra time. Carry a map, compass or GPS, a charged phone with an offline track, and plan for slower progress. Do not treat a downloaded track as a verified safe route."
+      },
+      "source": {
+        "publisher": "Almaty akimat / Visitalmaty (gov.kz)",
+        "url": "https://www.gov.kz/uploads/2024/9/17/bf797a6b4a7d013127673e11c05b760d_original.3189117.pdf",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми жаднамаға негізделген жалпы дайындық кеңесі; заңды талап емес және қауіпсіздікке кепілдік бермейді.",
+          "ru": "Общая рекомендация по подготовке из официальной памятки; не является юридическим требованием и не гарантирует безопасность.",
+          "en": "General preparedness advice from an official memo; not a legal requirement and not a safety guarantee."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "unknown-route",
+      "severity": "info",
+      "classification": "general",
+      "conditions": {
+        "routeType": {
+          "in": [
+            "unknown"
+          ],
+          "includeUnknown": true
+        }
+      },
+      "title": {
+        "kk": "Маршрут туралы мәлімет белгісіз",
+        "ru": "Данные о маршруте неизвестны",
+        "en": "Route details unknown"
+      },
+      "explanation": {
+        "kk": "Маршрут түрі белгісіз немесе расталмаған. Шығар алдында сенімді дереккөзден маршрут, қашықтық, биіктік айырмасы және болжамды уақыт туралы ақпарат жинаңыз. Топтың мүмкіндігіне сай маршрут таңдаңыз.",
+        "ru": "Тип маршрута неизвестен или не подтверждён. Перед выходом соберите сведения о маршруте, расстоянии, наборе высоты и ожидаемом времени из надёжного источника. Выбирайте маршрут по возможностям группы.",
+        "en": "Route type is unknown or not confirmed. Gather route information, distance, elevation and expected time from a reliable source before departure. Choose a route within the group's ability."
+      },
+      "source": {
+        "publisher": "Almaty akimat / Visitalmaty (gov.kz)",
+        "url": "https://www.gov.kz/uploads/2024/9/17/bf797a6b4a7d013127673e11c05b760d_original.3189117.pdf",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми жаднамаға негізделген жалпы дайындық кеңесі; заңды талап емес және қауіпсіздікке кепілдік бермейді.",
+          "ru": "Общая рекомендация по подготовке из официальной памятки; не является юридическим требованием и не гарантирует безопасность.",
+          "en": "General preparedness advice from an official memo; not a legal requirement and not a safety guarantee."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "no-signal-unmarked-route",
+      "severity": "critical",
+      "classification": "general",
+      "conditions": {
+        "connectivity": {
+          "in": [
+            "none"
+          ]
+        },
+        "routeType": {
+          "in": [
+            "unmarked",
+            "unknown"
+          ],
+          "includeUnknown": true
+        }
+      },
+      "title": {
+        "kk": "Белгіленбеген маршрутта байланыс жоқ",
+        "ru": "Нет связи на немаркированном маршруте",
+        "en": "No signal on an unmarked route"
+      },
+      "explanation": {
+        "kk": "Мобильді байланыс болмайды деп күтілуде, ал маршрут белгіленбеген немесе белгісіз. Бұл үйлесім навигация қателері мен кідірістерге аз мүмкіндік қалдырады. Жоспарды қайта қараңыз, тәжірибелі навигатор қосыңыз, офлайн навигация мен ортақ қайту жоспарын дайындаңыз. Бұл құтқару кепілдігі емес.",
+        "ru": "Ожидается отсутствие мобильной связи, а маршрут немаркирован или неизвестен. Такое сочетание оставляет мало запаса на ошибки навигации и задержки. Пересмотрите план, добавьте опытного навигатора, подготовьте офлайн-навигацию и согласованный план возвращения. Это не гарантия спасения.",
+        "en": "You expect no mobile signal and an unmarked or unknown route. This combination leaves little margin for navigation errors or delays. Reconsider the plan, add an experienced navigator, and prepare offline navigation and a shared return plan. This is not a rescue guarantee."
+      },
+      "source": {
+        "publisher": "Almaty akimat / Visitalmaty (gov.kz)",
+        "url": "https://www.gov.kz/uploads/2024/9/17/bf797a6b4a7d013127673e11c05b760d_original.3189117.pdf",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми жаднамаға негізделген жалпы дайындық кеңесі; заңды талап емес және қауіпсіздікке кепілдік бермейді.",
+          "ru": "Общая рекомендация по подготовке из официальной памятки; не является юридическим требованием и не гарантирует безопасность.",
+          "en": "General preparedness advice from an official memo; not a legal requirement and not a safety guarantee."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "plan-sharing",
+      "severity": "info",
+      "classification": "general",
+      "conditions": {
+        "anyOf": [
+          {
+            "connectivity": {
+              "in": [
+                "none",
+                "unreliable"
+              ]
+            }
+          },
+          {
+            "groupExperience": {
+              "in": [
+                "first-time"
+              ]
+            }
+          },
+          {
+            "routeType": {
+              "in": [
+                "unmarked",
+                "unknown"
+              ],
+              "includeUnknown": true
+            }
+          }
+        ]
+      },
+      "title": {
+        "kk": "Шығар алдында жоспарды бөлісіңіз",
+        "ru": "Поделитесь планом перед выходом",
+        "en": "Share the plan before leaving"
+      },
+      "explanation": {
+        "kk": "Сенімді адамға маршрутты, күтілетін қайту уақытын, топ мөлшерін және уақытында оралмасаңыз не істеу керектігін жіберіңіз. Бұл қолданбада хабарлама жасау оны жіберуді білдірмейді; оны өзіңіз бөлісуіңіз немесе көшіруіңіз керек.",
+        "ru": "Отправьте доверенному человеку маршрут, ожидаемое время возвращения, размер группы и указание, что делать, если вы задержитесь. Создание сообщения в этом приложении не означает его отправку; вы должны сами поделиться им или скопировать его.",
+        "en": "Send your route, expected return time, group size and what to do if you are overdue to a trusted contact. Generating a message in this app does not send it; you must share or copy it yourself."
+      },
+      "source": {
+        "publisher": "Almaty akimat / Visitalmaty (gov.kz)",
+        "url": "https://www.gov.kz/uploads/2024/9/17/bf797a6b4a7d013127673e11c05b760d_original.3189117.pdf",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми жаднамаға негізделген жалпы дайындық кеңесі; заңды талап емес және қауіпсіздікке кепілдік бермейді.",
+          "ru": "Общая рекомендация по подготовке из официальной памятки; не является юридическим требованием и не гарантирует безопасность.",
+          "en": "General preparedness advice from an official memo; not a legal requirement and not a safety guarantee."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    },
+    {
+      "id": "emergency-numbers",
+      "severity": "info",
+      "classification": "official",
+      "conditions": {
+        "anyOf": [
+          {
+            "connectivity": {
+              "in": [
+                "none",
+                "unreliable"
+              ]
+            }
+          },
+          {
+            "durationHours": {
+              "min": 6
+            }
+          },
+          {
+            "routeType": {
+              "in": [
+                "unmarked",
+                "unknown"
+              ],
+              "includeUnknown": true
+            }
+          }
+        ]
+      },
+      "title": {
+        "kk": "Шұғыл нөмірлерді біліңіз",
+        "ru": "Знайте экстренные номера",
+        "en": "Know the emergency numbers"
+      },
+      "explanation": {
+        "kk": "Қазақстанда 112 — бірыңғай шұғыл нөмір; 101 — өрт/құтқару, 102 — полиция, 103 — жедел медициналық көмек, 104 — газ. Өмірге қауіп төнген жағдайда алдымен 112-ге қоңырау шалыңыз. Нөмірлер мен қызметтер өзгеруі мүмкін, сондықтан сенбес бұрын тексеріңіз. Бұл қолданба ешкімге қоңырау шалмайды және құтқару қызметін шақырмайды.",
+        "ru": "В Казахстане 112 — единый номер экстренных служб; 101 — пожарная охрана и спасение, 102 — полиция, 103 — скорая помощь, 104 — аварийная газовая служба. При угрозе жизни сначала звоните 112. Номера и службы могут меняться, поэтому проверяйте их. Это приложение никому не звонит и не вызывает спасателей.",
+        "en": "In Kazakhstan, 112 is the unified emergency number; 101 fire and rescue, 102 police, 103 ambulance, 104 gas. In a life-threatening emergency, call 112 first. Numbers and services can change, so verify them. This app does not call or dispatch anyone."
+      },
+      "source": {
+        "publisher": "eGov / Government of Kazakhstan",
+        "url": "https://egov.kz/cms/kk/articles/emergency_number_112",
+        "lastVerified": "2026-10-20",
+        "reviewStatus": "human-review-required",
+        "note": {
+          "kk": "Ресми шұғыл нөмірлер туралы ақпарат. Нөмірлер мен қызметтер өзгеруі мүмкін.",
+          "ru": "Официальная информация об экстренных номерах. Номера и службы могут меняться.",
+          "en": "Official emergency-number information. Numbers and services can change."
+        }
+      },
+      "translationStatus": "machine-assisted"
+    }
+  ]
+}

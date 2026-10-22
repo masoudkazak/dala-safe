@@ -1,0 +1,23 @@
+{
+  "checklist.title": "Readiness checklist",
+  "checklist.subtitle": "Required items stay visible. Add your own items where needed.",
+  "checklist.progress": "Completed",
+  "checklist.requiredRemaining": "{count} required items remaining",
+  "checklist.allDone": "All required items are complete.",
+  "checklist.add": "Add item",
+  "checklist.addLabel": "New checklist item",
+  "checklist.addPlaceholder": "e.g. Tell the group about the meeting point",
+  "checklist.custom": "Custom",
+  "checklist.remove": "Remove item",
+  "checklist.reset": "Reset checklist",
+  "checklist.resetTitle": "Reset all checklist progress?",
+  "checklist.resetBody": "All items will be unmarked. Custom items are kept.",
+  "checklist.empty": "No checklist items. Add one to begin.",
+  "checklist.saved": "Checklist saved.",
+  "checklist.required": "Required",
+  "checklist.optional": "Optional",
+  "checklist.progressValue": "{done} of {total}",
+  "checklist.added": "Item added.",
+  "checklist.removed": "Item removed.",
+  "checklist.resetDone": "Checklist progress reset."
+}

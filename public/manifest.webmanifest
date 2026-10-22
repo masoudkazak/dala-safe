@@ -1,0 +1,40 @@
+{
+  "name": "Dala Safe — trip safety planner",
+  "short_name": "Dala Safe",
+  "description": "Prepare an outdoor trip, share a safety plan, and keep essential guidance available offline in Kazakh, Russian and English.",
+  "lang": "kk",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f4ee",
+  "theme_color": "#1f5c4a",
+  "categories": ["travel", "utilities", "health"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

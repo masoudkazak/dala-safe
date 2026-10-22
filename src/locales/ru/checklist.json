@@ -1,0 +1,23 @@
+{
+  "checklist.title": "Чек-лист готовности",
+  "checklist.subtitle": "Обязательные пункты остаются на виду. При необходимости добавьте свои.",
+  "checklist.progress": "Выполнено",
+  "checklist.requiredRemaining": "Осталось обязательных пунктов: {count}",
+  "checklist.allDone": "Все обязательные пункты выполнены.",
+  "checklist.add": "Добавить пункт",
+  "checklist.addLabel": "Новый пункт чек-листа",
+  "checklist.addPlaceholder": "напр. Сообщить группе место встречи",
+  "checklist.custom": "Свой",
+  "checklist.remove": "Удалить пункт",
+  "checklist.reset": "Сбросить чек-лист",
+  "checklist.resetTitle": "Сбросить весь прогресс чек-листа?",
+  "checklist.resetBody": "Все пункты будут сняты. Свои пункты сохранятся.",
+  "checklist.empty": "Пунктов нет. Добавьте первый.",
+  "checklist.saved": "Чек-лист сохранён.",
+  "checklist.required": "Обязательно",
+  "checklist.optional": "Необязательно",
+  "checklist.progressValue": "{done} из {total}",
+  "checklist.added": "Пункт добавлен.",
+  "checklist.removed": "Пункт удалён.",
+  "checklist.resetDone": "Прогресс чек-листа сброшен."
+}

@@ -1,0 +1,57 @@
+/* Tour-local styling. Kept separate from global.css so the tour stays self-contained. */
+
+.tour-demo-banner {
+  border: 2px solid var(--color-danger);
+  border-radius: var(--radius-md);
+  background: var(--color-danger-soft);
+  color: var(--color-danger);
+  padding: var(--space-3) var(--space-4);
+}
+
+.tour-demo-banner__title {
+  display: block;
+  font-size: var(--text-sm);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tour-demo-banner__text {
+  margin: var(--space-1) 0 0;
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+}
+
+.tour-preview {
+  margin: 0;
+  padding: var(--space-3);
+  max-height: 20rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  color: var(--color-ink-soft);
+}
+
+.tour-details {
+  margin-top: var(--space-3);
+}
+
+.tour-details summary {
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-weight: 650;
+  padding: var(--space-2) 0;
+}
+
+.tour-step-heading:focus {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: var(--radius-sm);
+}
